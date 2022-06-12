@@ -1,0 +1,195 @@
+html{
+        max-width: 1440px;
+}
+
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.logo{
+margin: 20px 70px;
+}
+
+
+.mockup{
+    margin-top: 30px;
+    margin-left: 85px;  
+    
+}
+
+.mockup img{
+    width: 650px;
+}
+    
+.texto{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-left: 85px;
+    width: 400px;
+}
+
+.texto h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.texto .btn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    font-weight: 400;
+    box-shadow:  3px 3px 8px #383837;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.texto .btn a{
+  color:  hsl(257, 40%, 49%);
+  opacity: 0.8;
+}
+
+.btn a:hover{
+   color: hsl(300, 69%, 71%);
+   
+}
+
+.redes{
+   width: 100%;
+   margin-left: 1090px;
+   margin-top: -47px;
+}
+
+.redes .btn-redes{
+    border-radius: 50%;
+    width: 30px;
+    border: white 1px solid;
+    margin-left: 15px;
+}
+
+.btn-redes{
+    background-color:  hsl(257, 40%, 49%); 
+    height: 30px;   
+}
+
+i{
+    font-size: 15px;
+    color: #fff;  
+}
+
+.btn-redes i:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.attribution{
+    color: #fff;
+    font-size: 11px; 
+    margin-left: 600px; 
+}
+
+.attribution a{
+    color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 1240px){
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;    
+    }
+
+    .texto{
+        text-align: center;
+        width: 600px;
+    }
+
+    .redes{
+        margin-left: 300px;
+        margin-top: 50px;
+
+    }
+
+    .attribution{
+        margin-left: 200px;
+        margin-top: 20px;
+}
+}
+
+@media (max-width:375px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+    .logo{
+        margin-left: 30px;
+}
+    .logo img{
+        width: 100px;
+}
+
+    .mockup{
+        margin-left: 40px;
+}
+
+    .mockup img{
+        width: 300px;
+}
+
+    .texto{
+        width: 300px;
+        margin-left: 40px;
+}
+
+    .texto h1{
+        font-size: 20px;
+        text-align: center;
+                
+}
+
+    .texto p{
+        text-align: center;
+}
+
+    .texto .btn{
+        margin-left: 40px;
+}
+
+    
+    .redes{
+        margin-left: 130px;
+        margin-top: 70px;
+}
+
+   .attribution{
+     width: 180px;
+     margin-left: 120px;
+     margin-top: 50px;
+     text-align: center;
+}
+
+}
